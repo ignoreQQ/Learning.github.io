@@ -1,0 +1,123 @@
+body {
+    font-family: 'DFKai-sb', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+  background: #34b7db;
+}
+
+section {
+    padding: 20px;
+}
+
+section h1 {
+    text-align: center;
+}
+
+img {
+    max-width: auto;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .right-align {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-left: 5px;
+  }
+  #progress-container {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    margin-top: 10px;
+  }
+  
+  #progress-bar {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+  }
+
+title{
+  width:auto;
+  height:auto;
+  text-align:center;
+  line-height:100px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.bulletin-board {
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.announcement h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.announcement p {
+  font-size: 16px;
+  line-height: 1.6;
+}
