@@ -44,6 +44,7 @@ section h1 {
 img {
     max-width: auto;
     height: auto;
+    border-radius: 5%;
 }
 
 footer {
